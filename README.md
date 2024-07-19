@@ -1,6 +1,8 @@
 Highlights of application
 
-* N Tier with a Service
+* .Net Core
+* N Tier with a Service layer
+* Use of DI
 * Unit Test
 * Javascript with API endpoint
 * Hosted and deployed to Azure
