@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Palindrome Checker";
+}
+
+
+<div class="container">
+    @await Html.PartialAsync("_ValidatePalindrome")
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script src="~/js/httpHandler.js"></script>
+    <script src="~/js/alert.js"></script>
+    <script src="~/js/exercise.js"></script>
+}

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "27pQ8C6Qm3nwIY/JK3/L/i3ByQz/fGdu2gqdJxNgjgYPyyG6ffaPLptPnYi6ccXMSilglD19iAFYZ2DEX5QqGg==",
+  "success": true,
+  "projectFilePath": "/Volumes/Share/Jobs/Search/Projects/Spinutech.Exercise.Web/Spinutech.Exercise.Lib/Spinutech.Exercise.Lib.csproj",
+  "expectedPackageFiles": [
+    "/Users/ericjernigan/.nuget/packages/microsoft.netcore.app.ref/7.0.14/microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "/Users/ericjernigan/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.14/microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}

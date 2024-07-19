@@ -1,0 +1,106 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Spinutech.Exercise.Lib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Spinutech.Exercise.Lib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Spinutech.Exercise.Lib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Spinutech.Exercise.Lib/1.0.0": {
+      "type": "project",
+      "path": "../Spinutech.Exercise.Lib/Spinutech.Exercise.Lib.csproj",
+      "msbuildProject": "../Spinutech.Exercise.Lib/Spinutech.Exercise.Lib.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Spinutech.Exercise.Lib >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/ericjernigan/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Volumes/Share/Jobs/Search/Projects/Spinutech.Exercise.Web/Spinutech.Exercise.Web/Spinutech.Exercise.Web.csproj",
+      "projectName": "Spinutech.Exercise.Web",
+      "projectPath": "/Volumes/Share/Jobs/Search/Projects/Spinutech.Exercise.Web/Spinutech.Exercise.Web/Spinutech.Exercise.Web.csproj",
+      "packagesPath": "/Users/ericjernigan/.nuget/packages/",
+      "outputPath": "/Volumes/Share/Jobs/Search/Projects/Spinutech.Exercise.Web/Spinutech.Exercise.Web/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/ericjernigan/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "/Volumes/Share/Jobs/Search/Projects/Spinutech.Exercise.Web/Spinutech.Exercise.Lib/Spinutech.Exercise.Lib.csproj": {
+              "projectPath": "/Volumes/Share/Jobs/Search/Projects/Spinutech.Exercise.Web/Spinutech.Exercise.Lib/Spinutech.Exercise.Lib.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.14, 7.0.14]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-x64",
+            "version": "[7.0.14, 7.0.14]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.14, 7.0.14]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/Users/ericjernigan/.vscode-dotnet-sdk/.dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
